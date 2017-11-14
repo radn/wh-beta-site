@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The Washington Harbour - Capital Bikeshare</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="http://fonts.googleapis.com/css?family=Michroma" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="/assets/css/tooltipster.css">
+        <link rel="stylesheet" href="/assets/css/superslides.css">
+
+        <link href="/assets/css/jquery.bxslider.css" rel="stylesheet" />
+        <link rel="stylesheet/less" type="text/css" href="/assets/css/style.less">
+
+        <script src="/assets/js/jquery-1.11.1.min.js"></script>
+        <script src="/assets/js/jquery.bxslider.min.js"></script>
+        <script src="/assets/js/angular.min.js"></script>
+
+    </head>
+    <body class="template-b template-a-b" id="capital-bike">
+        <header id="header" ng-include src="'/nav.html'"></header>
+
+        <section id="template-a-head" class="text-sections view-directory">
+            <div class="title-two">Capital Bikeshare</div>
+            <div class="separator"></div>
+            <div class="text-section">
+                <p>Capital Bikeshare puts over 2500 bicycles at your fingertips. Ride from any of the 300 stations across Washington, D.C., Arlington and Alexandria, VA and Montgomery County, MD to Washington Harbour’s own docking station at 30th & K Streets.</p>
+            </div>
+        </section>
+
+        <section class="temp-a-gallery">
+            <div class="bx-wrapperer">
+                <ul class="bxslider">
+                    <li><img src="/assets/img/gallery/capital_bike_share/retail-storefronts-capital-bike-share.jpg"/></li>
+                    <li><img src="/assets/img/gallery/starbucks/retail-storefronts-starbucks2.jpg"/></li>
+                    <li><img src="/assets/img/gallery/starbucks/retail-storefronts-starbucks3.jpg"/></li>
+                </ul>
+            </div>
+        </section>
+ 
+        <section class="retailer-info">
+            
+            <div class="logo-container">
+                <a href="http://www.capitalbikeshare.com/" Target="_blank"><img src="/assets/img/retailers/page/wh-retailer-logos-capital-bike-white.jpg" alt=""></a>
+            </div>
+            <div class="middle-container info-containers">
+                <table>
+                    <tr>
+                        <th align="left">Additional Info</th>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td align"left">For more information about the CapitalBikeshare please see the web sites.</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                </table>
+                
+            </div>
+            <div class="last-container info-containers">
+                <h2>Contact us</h2>
+                <p>
+                    Phone:
+                    <br>
+                    877.430.2453
+                    <br>
+                    <br>
+                    Website:
+                    <br>
+                    <a href="http://www.capitalbikeshare.com" Target="_blank">capitalbikeshare.com</a>
+                </p>
+            </div>            
+        </section>  
+        
+        <section id="directory-start" class="text-sections interactivemap-head interactivemap-btn up">
+            <div class="title-two">Directory</div>
+            <div class="interactivebtn-wraper"><span class="interactivemap-btn"></span></div>
+            <div class="text-section">
+                <p></p>
+            </div>
+        </section>
+
+        <section id="imagemap-wrapper" ng-include src="'/directory.html'"></section>
+
+        <footer ng-include src="'/footer.html'"></footer>
+        
+        <script src="/assets/js/modernizr.2.8.3.js"></script>
+        <script src="/vimeo/js/jquery.flexslider-min.js" type="text/javascript"></script>        
+        <script src="/vimeo/js/magnific-popup.0.9.9.js" type="text/javascript"></script>
+        <script src="/vimeo/js/waypoints.js" type="text/javascript"></script>
+        <script src="/vimeo/js/victoria.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.easing.1.3.js"></script>
+        <script src="/assets/js/jquery.animate-enhanced.min.js"></script>
+        <script src="/assets/js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="/assets/js/owl.carousel.js"></script>
+        <script src="/assets/js/jquery.rwdImageMaps.min.js"></script>
+        <script src="/assets/js/jquery.tooltipster.js"></script>
+        <script src="/assets/js/less.js" type="text/javascript"></script>
+        <script src="/assets/js/main.js"></script>
+        <script>        
+            // Google Analytics
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-57349170-1');ga('send','pageview');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The Washington Harbour | Visiting and Parking Information</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="http://fonts.googleapis.com/css?family=Michroma" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="/assets/css/tooltipster.css">
+        <link rel="stylesheet" href="/assets/css/superslides.css">
+
+        <link href="/assets/css/jquery.bxslider.css" rel="stylesheet" />
+        <link rel="stylesheet/less" type="text/css" href="/assets/css/style.less">
+
+        <script src="/assets/js/jquery-1.11.1.min.js"></script>
+        <script src="/assets/js/jquery.bxslider.min.js"></script>
+        <script src="/assets/js/angular.min.js"></script>
+
+    </head>
+    <body class="template-a template-a-b parking" id="parking">
+        <header id="header" ng-include src="'/nav.html'"></header>
+
+        <section id="template-a-head" class="text-sections view-directory">
+            <div class="title-two">Visiting &amp; Parking</div>
+            <div class="separator"></div>
+            <div class="text-section">
+                <p>Washington Harbour is located in the heart of Georgetown along the iconic Potomac River with views to <br>Rosslyn and downtown DC.</p>
+            </div>
+        </section>
+
+        <section class="temp-a-gallery">
+            <div class="bx-wrapperer">
+                <ul class="bxslider">
+                    <li><img src="/assets/img/gallery/visiting_parking/parking_img_01.jpg"/></li>
+                    <li><img src="/assets/img/gallery/visiting_parking/parking_img_02.jpg"/></li>
+                    <li><img src="/assets/img/gallery/visiting_parking/parking_img_03.jpg"/></li>
+                </ul>
+            </div>
+        </section>
+ 
+        <section class="information">
+            <div class="left-container info-containers">
+                <h2>Directions</h2>
+                <p><strong>From Maryland:</strong> From Bethesda, take Wisconsin Avenue south into Washington DC. Turn left on K Street NW. The Washington Harbour is on the right.</p>
+                <p><strong>From Virginia:</strong> From Arlington, McLean, or Tysons Corner, take the Key Bridge in Rosslyn toward Washington DC. Turn right on M Street. Turn right on Wisconsin Avenue. Turn left on K Street NW. The Washington Harbour is on the right.</p>
+                <p>From Alexandria, 395, or Route 1, take the George Washington Parkway north towards Arlington and Route 50. Follow signs to Route 50 and Rosslyn and then follow signs for Key Bridge. Follow above directions once on M Street.</p>
+                <h2 class="transportation">Transportation</h2>
+                <p>Orange, Blue, or Silver Line Metro: <a href="#">Foggy Bottom &ndash; GWU Station</a>
+                Walk 0.1 miles north on 23rd St to traffic circle. Stay left at circle, take second exit onto K Street heading west. Continue 0.5 miles and destination will be on the left.</p>
+                <p><a href="#">DC Circulator</a>
+                    <br>From Foggy Bottom &ndash; GWU Station DC Circulator bus departs from Pennsylvania Ave &amp; 22nd Ave St. NW. Board bus towards Georgetown. Arrive at K St. NW &amp; 30th St. NW.</p>
+                <p><a href="#">Capital Bike Share</a>
+                    <br>Dock available onsite at The Washington Harbour and 30th Street. Others nearby include C&amp;O Canal and Wisconsin Ave NW, M St and Pennsylvania Ave NW, and 34th and Water St NW.</p>
+            </div>
+            <div class="right-container info-containers">
+                <h2>Parking</h2>
+                <p>The Washington Harbour provides 24/7 garage parking with convenient and direct access to the fountains, ice rink, restaurants, boardwalk, and more. The Washington Harbour garage is manned and maintained by Colonial Parking.</p>
+                <p><em>Payments accepted: Cash, Visa, MasterCard, Discover</em></p>
+                <ul>
+                    <li>Hours: Mon &ndash; Sun, 24 hours</li>
+                    <li>Rates: (subject to change)</li>
+                    <li>$12 / 1 hour</li>
+                    <li>$20 daily max</li>
+                    <li>$12 / evening &nbsp;Mon &ndash; Friday after 4 pm</li>
+                    <li>$12 / flat rate &nbsp;Sat &ndash; Sun</li>
+                </ul>
+                <p>Garage Location: Garage is located at 3000K St NW, in the Washington Harbour&rsquo;s East Building. The garage entrance is on K St between 30th and Thomas Jefferson St.</p>
+            </div>            
+        </section>   
+        
+        <section id="directory-start" class="text-sections interactivemap-head interactivemap-btn up">
+            <div class="title-two">Directory</div>
+            <div class="interactivebtn-wraper"><span class="interactivemap-btn"></span></div>
+            <div class="text-section">
+                <p></p>
+            </div>
+        </section>
+        
+        <section id="imagemap-wrapper" ng-include src="'/directory.html'"></section>
+
+       <footer ng-include src="'/footer.html'"></footer>
+        
+        <script src="/assets/js/jquery.easing.1.3.js"></script>
+        <script src="/assets/js/jquery.animate-enhanced.min.js"></script>
+        <script src="/assets/js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="/assets/js/owl.carousel.js"></script>
+        <script src="/assets/js/jquery.rwdImageMaps.min.js"></script>
+        <script src="/assets/js/jquery.tooltipster.js"></script>
+        <script src="/assets/js/less.js" type="text/javascript"></script>
+        <script src="/assets/js/main.js"></script>
+        <script>        
+            // Google Analytics
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-57349170-1');ga('send','pageview');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,178 @@
+.contact-form-wrapper {
+	max-width: 500px;
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea,
+#contact-form button[type="submit"],
+#contact-form .styled-select select  {
+	font: 400 12px/15px 'Open Sans', sans-serif, Helvetica;;
+}
+#contact-form {
+	text-shadow: 0 1px 0 #fff;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius:4px;
+	background: #ebebeb;
+	padding: 2px 0 45px 25px;
+}
+#contact-form h3 {
+	/*font-family: 'Michroma', Helvetica, sans-serif;*/
+	font-size: 24px;
+	color: #666;
+	display: block;
+	text-transform: uppercase;
+	margin-left: 5px;
+}
+#contact-form h4 {
+	margin: 5px 0 15px;
+	display: block;
+	font-size: 13px;
+}
+#contact-form label span {
+	cursor: pointer;
+	color: #666;
+	display: block;
+	/*margin: 5px 0;*/
+	margin: 5px 0 5px 9px;
+	font-weight: 900;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+	width: 100%;
+	box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-webkit-box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-moz-box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	border: 1px solid #ccc;
+	background: #fff;
+	margin: 0 0 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+#contact-form input[type="text"]:hover,
+#contact-form input[type="email"]:hover,
+#contact-form input[type="tel"]:hover,
+#contact-form input[type="url"]:hover,
+#contact-form textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border: 1px solid #aaa;
+}
+#contact-form textarea {
+	height: 100px;
+	max-width: 100%;
+}
+#contact-form button[type="submit"] {
+	cursor: pointer;
+	/*width: 105%;*/
+	/*border: none;*/
+	/*background: #666;*/
+	
+	/*background-image: linear-gradient(bottom, #8C1C50 0%, #991D57 52%);*/
+	/*background-image: -moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);*/
+	/*background-image: -webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);*/
+	
+	/*color: #fff;*/
+	margin: 8px 0;
+	/*padding: 10px;*/
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: none repeat scroll 0 0 #f5f5f5;
+    color: #666;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 10px 50px;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+}
+#contact-form button[type="submit"]:hover {
+	border: 1px solid #666;
+	transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+}
+
+#contact-form .styled-select {
+	width: 100%;
+    height: 34px;
+    overflow: hidden;
+   /* background: url('/assets/img/down_arrow_select.jpg') no-repeat right #666;*/
+    /*border: 1px solid #ccc;*/
+}
+#contact-form .styled-select select {
+	background: url('/assets/img/down_arrow_select.jpg') no-repeat right #fff;
+	-moz-appearance: none;
+	text-indent: 0.01px;
+	text-overflow: '';
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+    color: #000;
+    font-size: 12px;
+    border: 1px solid #ccc;
+}
+#contact-form .styled-select select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+#contact-form .styled-select select:hover {
+	border: 1px solid #aaa;
+}
+#contact-form .styled-select select option {
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+@-moz-document url-prefix(){
+  #contact-form .styled-select select { width: 110%; }
+}
+/*#contact-form button[type="submit"]:hover {
+	background-image: linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image: -moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image: -webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+}*/
+#contact-form button[type="submit"]:active {
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+	outline: 0;
+	border: 1px solid #999;
+}
+::-webkit-input-placeholder {
+    color: #888;
+}
+:-moz-placeholder {
+    color: #888;
+}
+::-moz-placeholder {
+    color: #888;
+}
+:-ms-input-placeholder {
+    color: #888;
+}
+
+/**/

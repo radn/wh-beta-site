@@ -1,0 +1,40 @@
+{
+  "items" : [
+    {
+      "title": "HARBOUR NIGHTS",
+      "img": "/assets/img/events/event_01.png",
+      "alt" : "--- Image 1",
+      "description": " Live music at Harbour Nights <br>every Wednesday evening starting <br>June 4th through September 24th <br><span class='more-less'>Read more ...</span><br><span class='extended'>Event starts: mm/dd/year<br>Event ends: mm/dd/year<br>Location: EventLocation</span><br><span class='read-less'>Less...</span>"
+    },
+    {
+      "title": "FARM MARKET BRUNCH",
+      "img": "/assets/img/events/event_02.png",
+      "alt" : "--- Image 2",
+      "description": "Farmers Fishers Bakers brunch <br>every weekend! With a diverse <br>menu of the American farm at the <br>table and fresh dishes.<br><span class='more-less'>Read more ...</span><br><span class='extended'>Event starts: mm/dd/year<br>Event ends: mm/dd/year<br>Location: EventLocation</span><br><span class='read-less'>Less...</span>"
+   },
+    {
+      "title": "SUNDAY BRUNCH",
+      "img": "/assets/img/events/event_03.png",
+      "alt" : "--- Image 1",
+      "description": "Join us for a delicious, weekend <br>brunch at Fiola’s along the <br>Potomac River at The Washington <br>Harbour.<br><span class='more-less'>Read more ...</span><br><span class='extended'>Event starts: mm/dd/year<br>Event ends: mm/dd/year<br>Location: EventLocation</span><br><span class='read-less'>Less...</span>"
+    },
+    {
+      "title": "event 4",
+      "img": "/assets/img/events/event_01.png",
+      "alt" : "--- Image 2",
+      "description": "Lorem ipsum dolor sit amet, <br>consectetur adipiscing. <br>consectetur el es adipiscing.<br><span class='more-less'>Read more ...</span><br><span class='extended'>Event starts: mm/dd/year<br>Event ends: mm/dd/year<br>Location: EventLocation</span><br><span class='read-less'>Less...</span>"
+    },
+    {
+      "title": "event 5",
+      "img": "/assets/img/events/event_02.png",
+      "alt" : "--- Image 1",
+      "description": "Lorem ipsum dolor sit amet, <br>consectetur adipiscing. <br>consectetur el es adipiscing.<br><span class='more-less'>Read more ...</span><br><span class='extended'>Event starts: mm/dd/year<br>Event ends: mm/dd/year<br>Location: EventLocation</span><br><span class='read-less'>Less...</span>"
+    },
+    {
+      "title": "event 6",
+      "img": "/assets/img/events/event_03.png",
+      "alt" : "--- Image 6",
+      "description": "Lorem ipsum dolor sit amet, <br>consectetur adipiscing. <br>consectetur el es adipiscing.<br><span class='more-less'>Read more ...</span><br><span class='extended'>Event starts: mm/dd/year<br>Event ends: mm/dd/year<br>Location: EventLocation</span><br><span class='read-less'>Less ...</span>"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "items" : [
+    {
+      "title": "<a href='/events.html'>FARM MARKET BRUNCH</a>",
+      "img": "/assets/img/events/event_02.png",
+      "alt" : "FARM MARKET BRUNCH",
+      "description": "Farmers Fishers Bakers brunch <br>every weekend! With a diverse <br>menu of the American farm at the <br>table and fresh dishes.<br><span class='more-less'>Read more ...</span><br><span class='swipe'>Please swipe to see more events.</span>"
+    },
+    {
+      "title": "<a href='/events.html'>WEEKEND BRUNCH</a>",
+      "img": "/assets/img/events/event_03.png",
+      "alt" : "WEEKEND BRUNCH",
+      "description": "Join us for a delicious, weekend <br>brunch at Fiola Mare along the <br>Potomac River at The Washington <br>Harbour.<br><span class='more-less'>Read more ...</span><br><span class='swipe'>Please swipe to see more events.</span>"
+    },
+    {
+      "title": "<a href='/events.html'>CARTOON SKATE</a>",
+      "img": "/assets/img/events/event_05.png",
+      "alt" : "CARTOON SKATE",
+      "description": "Share the ice with Scooby Doo, <br>Cat in the Hat, and more!<br><span class='more-less'>Read more ...</span><br><span class='swipe'>Please swipe to see more events.</span>"
+    },
+    {
+      "title": "<a href='/events.html'>ROCK'N SKATE</a>",
+      "img": "/assets/img/events/event_04.png",
+      "alt" : "Night Skating",
+      "description": "Enjoy an evening of skating, music, <br>games & prizes.<br><span class='more-less'>Read more ...</span><br><span class='swipe'>Please swipe to see more events.</span>"
+    },
+    {
+      "title": "<a href='/events.html'>TWO FOR TUESDAY SKATE</a>",
+      "img": "/assets/img/events/event_07.png",
+      "alt" : "TWO FOR TUESDAY SKATE",
+      "description": "Admission is two for the price of one! <br>(skate rental not included)<br><span class='more-less'>Read more ...</span><br><span class='swipe'>Please swipe to see more events.</span>"
+    },
+    {
+      "title": "<a href='/events.html'>COLLEGE NIGHT SKATE</a>",
+      "img": "/assets/img/events/event_06.png",
+      "alt" : "COLLEGE NIGHT SKATE",
+      "description": "Receive $2 off Admission with a <br>Valid College ID<br><span class='more-less'>Read more ...</span><br><span class='swipe'>Please swipe to see more events.</span>"
+    }
+    
+  ]
+}
